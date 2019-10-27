@@ -1,0 +1,24 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>  -->
+<!--   <beans xmlns="http://www.springframework.org/schema/beans" -->
+<!--     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
+<!--     xmlns:sec="http://cxf.apache.org/configuration/security" -->
+<!--     xmlns:http="http://cxf.apache.org/transports/http/configuration" -->
+<!--     xmlns:httpj="http://cxf.apache.org/transports/http-jetty/configuration" -->
+<!--     xsi:schemaLocation="http://cxf.apache.org/configuration/security http://cxf.apache.org/schemas/configuration/security.xsd http://cxf.apache.org/transports/http/configuration http://cxf.apache.org/schemas/configuration/http-conf.xsd http://cxf.apache.org/transports/http-jetty/configuration http://cxf.apache.org/schemas/configuration/http-jetty.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"> -->
+<!--     <http:destination name="*.http-conduit">  -->
+<!--     </http:destination> -->
+<!--     <httpj:engine-factory> -->
+<!--         <httpj:engine port="7500"> -->
+<!--             <httpj:tlsServerParameters> -->
+<!--                 <sec:keyManagers keyPassword="skpass"> -->
+<!--                     <sec:keyStore file="/local/mnt/sp_properties/PHC/certs/att-2net-client.jks" password="fVA7TXnz6qnPV6zJ" type="JKS"/> -->
+<!--                 </sec:keyManagers> -->
+<!--                 <sec:trustManagers> -->
+<!--                     <sec:keyStore file="/local/mnt/sp_properties/PHC/certs/att-truststore.jks" password="vCt4KL3vsuv4U36x" type="JKS"/> -->
+<!--                 </sec:trustManagers> -->
+<!--                 <sec:clientAuthentication want="false" required="false"/> -->
+<!--             </httpj:tlsServerParameters> -->
+<!--         </httpj:engine> -->
+<!--     </httpj:engine-factory> -->
+ 
+<!-- </beans> -->
